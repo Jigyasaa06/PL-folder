@@ -1,0 +1,22 @@
+QUESTION 1 write a program to series with an alteration of addition and subtraction
+
+#include <stdio.h>
+int lucas(int num);
+int main(){
+    int n;
+    scanf("%d",&n);
+    printf("enter a number:\n");
+    printf("lucas number is \"%d\"\n",lucas(n));
+    return 0;
+}
+int lucas(int num){
+    if(num==0){
+        return 2;
+    }
+    else if(num==1){
+        return 1;
+    }
+    else{
+        return(lucas(num-1)+lucas(num-2));
+    }
+}
