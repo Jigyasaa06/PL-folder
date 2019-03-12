@@ -1,0 +1,79 @@
+
+*******************************************************************************
+/
+
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+
+{
+ int i,j,n,a,b,m;
+
+ int arr1[3][3];
+
+ int arr2[3][3];
+ 
+int sum[3][3];
+ 
+cout<<"enter the numbers of rows and columns:";
+
+ cin>>m>>n;
+
+ {
+     
+     
+         
+     
+cout<<"enter the array1 elements:";
+    
+     
+for(i=0;i<n;i++)
+  
+   for(j=0;j<n;j++)
+      
+cin>>arr1[a][b];
+   
+  {
+     cout<<"enter the array2 elements:";
+   
+  }
+     
+     for(i=0;i<n;i++)
+      
+   for(j=0;j<n;j++)
+      
+   cin>>arr2[a][b];
+         
+          
+   for(i=0;i<n;i++)
+     
+    for(j=0;j<n;j++)
+
+        
+ sum[a][b]=arr1[a][b]+arr2[a][b];
+    
+    {
+         
+ cout<<"sum of matrix:"<<sum[a][b];
+        }
+    
+     for(i=0;i<n;i++)
+    
+
+     {
+             for(j=0;j<n;j++)
+         
+    {
+                 cout<<sum<<sum[a][b];
+        
+     }
+      
+   }
+         
+     }
+ 
+
+}

@@ -1,0 +1,42 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+
+{
+ int i,avg,sum=0,n;
+
+ 
+ cout<<"enter the numbers:";
+
+ cin>>n;
+ int arr[10];
+ 
+for(i=0;i<n;i++)
+ 
+{
+ cout<<"enter the array elements:"<<i+1;
+ 
+cin>>arr[i];
+
+ }
+ 
+for(i=1;i<n;i++)
+
+ {
+ sum=sum+i;
+
+ }
+ cout<<"sum is:"<<sum;
+
+ 
+ avg=sum/n;
+ cout<<"average is:"<<avg;
+ 
+
+  
+  return 0;
+
+}
